@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  line-height: 1.5;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li{
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h4{
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*FROM THE TOP => HEADER */
+
+/*SECTION 1*/
+
+.main-bg {
+  background-image: url("/images/landing.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 100%;
+  height: 1200px; 
+}
+
+.nav-bar {
+  max-width: 100%;
+  background-color: white;
+  max-height: 90px;
+  display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.nav-bar .logo {
+  max-width: 10%;
+  margin: 20px;
+}
+
+.bg-text{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  margin:450px; 
+}
+
+/*SECTION 2*/
+
+.info {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.info h2 {
+  color: black;
+  font-weight: bold;
+}
+
+.green{
+  border:1px solid #1DB954;
+  width: 12%;
+}
+
+#structure {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+  align-content: center;
+  margin: 0 150px;
+}
+
+.container {  
+  font-size: 1.7em;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 17%;
+}
+
+.container h3 {
+  color:#1DB954;
+}
+
+.container p {
+  color: black;
+}
+.container img {
+  max-width: 125px;
+}
+
+/*SECTION 3*/
+
+.green-bg {
+  max-width: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+  background-color:#1DB954;
+  background-image: url('/images/spotify-icon-white.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+}
+
+.green-bg, h2, p {
+  color: white;
+}
+
+.white{
+  width: 40%;
+  border: 1px solid white;
+}
+
+#first-50{
+  width: 50%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+#first-50 h2{
+  padding:5px;
+  margin: 0;
+}
+
+.container-green-bg{
+  padding: 35px;
+  width: 350px;
+}
+
+#second-50{
+  width: 50%;
+}
+
+#second-50 img{
+  width: 350px;
+  margin: 150px 0  50px 330px;
+}
+
